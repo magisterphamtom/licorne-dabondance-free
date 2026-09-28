@@ -1,0 +1,46 @@
+name: Release Foundry Module
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Extraire la version depuis le tag
+        id: get_version
+        run: |
+          TAG="${GITHUB_REF#refs/tags/}"
+          VERSION="${TAG#v}"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Mettre à jour module.json (version + download)
+        run: |
+          VERSION="${{ steps.get_version.outputs.version }}"
+          jq --arg version "$VERSION" \
+             --arg download "https://github.com/${{ github.repository }}/releases/download/${GITHUB_REF#refs/tags/}/licorne-dabondance-free.zip" \
+             '.version = $version | .download = $download' \
+             module.json > module.json.tmp
+          mv module.json.tmp module.json
+
+      - name: Créer le zip du module (fichiers à la racine)
+        run: |
+          zip -r licorne-dabondance-free.zip . \
+            -x ".git/*" \
+            -x ".github/*" \
+            -x ".gitignore" \
+            -x "*.zip"
+
+      - name: Publier les assets sur la release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            module.json
+            licorne-dabondance-free.zip

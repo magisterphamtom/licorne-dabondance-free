@@ -1,0 +1,458 @@
+/* ========================================
+   POLICES
+======================================== */
+@font-face {
+  font-family: 'MagnificentJoss';
+  src: url('/modules/licorne-dabondance/assets/fonts/MAGNIFICENTJOSS1.OTF') format('opentype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'DwarvenAxe';
+  src: url('/modules/licorne-dabondance/assets/fonts/DWARVENAXEBB.OTF') format('opentype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'DwarvenAxe';
+  src: url('/modules/licorne-dabondance/assets/fonts/DWARVENAXEBB-ITALIC.OTF') format('opentype');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'EBGaramond';
+  src: url('/modules/licorne-dabondance/assets/fonts/EBGaramond-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EBGaramond';
+  src: url('/modules/licorne-dabondance/assets/fonts/EBGaramond-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'EBGaramond';
+  src: url('/modules/licorne-dabondance/assets/fonts/EBGaramond-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Heraldics';
+  src: url('/modules/licorne-dabondance/assets/fonts/INTELLECTAHERALDICS.TTF') format('truetype');
+  font-weight: normal;
+}
+
+/* ========================================
+   FOND PARCHEMIN - MODE LECTURE
+======================================== */
+.journal-entry-content {
+  background-image: url("/modules/licorne-dabondance/assets/artwork/journal-parchment.webp") !important;
+  background-size: cover !important;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Transparence des éléments au dessus */
+.journal-entry-pages,
+.journal-entry-page,
+.page-content,
+.editor-content {
+  background: transparent !important;
+}
+
+/* ========================================
+   FOND PARCHEMIN - MODE EDITION
+======================================== */
+.editor-container,
+.tox-tinymce,
+.tox .tox-edit-area,
+.tox .tox-edit-area__iframe,
+.ProseMirror {
+  background-image: url("/modules/licorne-dabondance/assets/artwork/journal-parchment.webp") !important;
+  background-size: cover !important;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-color: transparent !important;
+}
+
+.editor-content {
+  background: transparent !important;
+}
+
+/* ========================================
+   ENTÊTE ET BARRE LATERALE
+======================================== */
+
+/* Entête de toutes les fenêtres journal */
+.app.sheet .window-header,
+.journal-sheet .window-header,
+.journal-entry-sheet .window-header,
+.application.journal-entry-page .window-header {
+  background: #f0e6d3 !important;
+  border-bottom: 2px solid #c8a96e !important;
+}
+
+/* Titre dans l'entête */
+.app.sheet .window-header .window-title,
+.journal-sheet .window-header .window-title,
+.application.journal-entry-page .window-title {
+  font-family: 'DwarvenAxe', serif !important;
+  color: #2c1810 !important;
+}
+
+/* Icônes barre du haut */
+.journal-sheet .window-header a,
+.journal-sheet .window-header button,
+.journal-sheet .window-header i,
+.journal-sheet .header-search input,
+.journal-sheet .header-button,
+.journal-sheet .header-control {
+  color: #2c1810 !important;
+}
+
+/* Icônes navigation haut du journal */
+.journal-sheet .journal-sidebar-toggle,
+.journal-sheet .journal-entry-header i,
+.journal-sheet nav i,
+.journal-sheet nav a,
+.journal-sheet nav button {
+  color: #2c1810 !important;
+}
+
+/* Barre latérale gauche */
+.journal-sheet .journal-sidebar,
+.journal-entry-sheet .journal-sidebar {
+  background: #e8d9c0 !important;
+  border-right: 2px solid #c8a96e !important;
+}
+
+/* Texte barre latérale */
+.journal-sheet .journal-sidebar .pages-list .page-title,
+.journal-sheet .journal-sidebar a,
+.journal-sheet .journal-sidebar span,
+.journal-sheet .journal-sidebar li,
+.journal-entry-sheet .journal-sidebar a {
+  font-family: 'DwarvenAxe', serif !important;
+  color: #2c1810 !important;
+}
+
+/* Entête titre du journal en haut */
+.journal-sheet .journal-header,
+.journal-entry-sheet .journal-header {
+  background: #f0e6d3 !important;
+  border-bottom: 2px solid #c8a96e !important;
+}
+
+.journal-sheet .journal-header input.title {
+  font-family: 'DwarvenAxe', serif !important;
+  color: #2c1810 !important;
+  background: transparent !important;
+}
+
+/* Barre Niveau 1 / Afficher le titre */
+.application.journal-entry-page .titlebar {
+  background: #f0e6d3 !important;
+  border-bottom: 2px solid #c8a96e !important;
+  color: #2c1810 !important;
+}
+
+/* ========================================
+   BARRE D'OUTILS EDITION
+======================================== */
+
+.editor-menu {
+  background: #f0e6d3 !important;
+  border-bottom: 2px solid #c8a96e !important;
+}
+
+.editor-menu button,
+.editor-menu i,
+.editor-menu span {
+  color: #2c1810 !important;
+}
+
+.editor-menu select {
+  background: #f0e6d3 !important;
+  color: #2c1810 !important;
+  border: 1px solid #c8a96e !important;
+}
+
+.editor-menu button:hover {
+  background: #c8a96e !important;
+}
+
+/* ========================================
+   MENU PROSEMIRROR
+======================================== */
+
+.ProseMirror-menubar {
+  background: #f0e6d3 !important;
+  border-bottom: 2px solid #c8a96e !important;
+}
+
+.ProseMirror-menubar .ProseMirror-menu-itemspec,
+.ProseMirror-menubar i,
+.ProseMirror-menubar span {
+  color: #2c1810 !important;
+}
+
+.ProseMirror-menu-dropdown,
+.ProseMirror-menu-dropdown-menu {
+  background: #f0e6d3 !important;
+  color: #2c1810 !important;
+  border: 1px solid #c8a96e !important;
+}
+
+.ProseMirror-menubar .ProseMirror-menu-itemspec:hover {
+  background: #c8a96e !important;
+}
+
+/* ========================================
+   TYPOGRAPHIE
+======================================== */
+
+/* Grand titre H1 */
+.journal-entry-content h1,
+.ProseMirror h1 {
+  font-family: 'MagnificentJoss', serif !important;
+  color: #5c1a00 !important;
+  font-size: 2.5em !important;
+  text-align: center !important;
+}
+
+/* Titres de section H2 */
+.journal-entry-content h2,
+.ProseMirror h2 {
+  font-family: 'DwarvenAxe', serif !important;
+  font-weight: normal !important;
+  color: #3d1200 !important;
+  font-size: 1.8em !important;
+}
+
+/* Sous-titres H3 */
+.journal-entry-content h3,
+.ProseMirror h3 {
+  font-family: 'DwarvenAxe', serif !important;
+  font-weight: normal !important;
+  color: #3d1200 !important;
+  font-size: 1.4em !important;
+}
+
+/* Italique */
+.journal-entry-content em,
+.ProseMirror em {
+  font-family: 'DwarvenAxe', serif !important;
+  font-style: italic !important;
+}
+
+/* Corps de texte */
+.journal-entry-content p,
+.journal-entry-content li,
+.ProseMirror p,
+.ProseMirror li {
+  font-family: 'EBGaramond', serif !important;
+  font-size: 15px !important;
+  line-height: 1.6 !important;
+  color: #2c1810 !important;
+}
+
+/* Texte gras */
+.journal-entry-content strong,
+.ProseMirror strong {
+  font-family: 'EBGaramond', serif !important;
+  font-weight: bold !important;
+  color: #2c1810 !important;
+}
+
+/* Titre du journal */
+.journal-header .title {
+  font-family: 'DwarvenAxe', serif !important;
+  color: #2c1810 !important;
+  background: transparent !important;
+}
+
+/* ========================================
+   BANDEAU DE PAUSE
+======================================== */
+figure#pause.dnd5e2.paused {
+  background: rgba(0, 0, 0, 0.5) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+figure#pause.dnd5e2.paused div.flexcol {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  pointer-events: none !important;
+}
+
+figure#pause.dnd5e2.paused img {
+  width: 200px !important;
+  height: 200px !important;
+  object-fit: contain !important;
+  position: relative !important;
+  left: auto !important;
+  top: auto !important;
+  margin: 0 auto !important;
+  pointer-events: none !important;
+}
+
+figure#pause.dnd5e2.paused figcaption {
+  font-family: 'DwarvenAxe', serif !important;
+  color: #f0e6d3 !important;
+  font-size: 2em !important;
+  text-align: center !important;
+  pointer-events: none !important;
+  letter-spacing: 3px !important;
+}
+
+/* ========================================
+   BANDEAU LATERAL CHAPITRE
+======================================== */
+.bandeau-chapitre {
+  position: absolute !important;
+  right: 0px !important;
+  top: 0 !important;
+  width: 70px !important;
+  height: 100% !important;
+  background-image: url("/modules/licorne-dabondance/assets/artwork/bandeau.png") !important;
+  background-size: cover !important;
+  background-repeat: repeat-y !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  padding-bottom: 80px !important;
+}
+
+/* Cachet de cire - en dessous du bandeau */
+.bandeau-chapitre .cachet {
+  position: absolute !important;
+  bottom: -40px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 90px !important;
+  height: 90px !important;
+  background-image: url("/modules/licorne-dabondance/assets/artwork/cachet.png") !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+/* Texte vertical en bas du bandeau */
+.bandeau-chapitre .texte-chapitre {
+  writing-mode: vertical-rl !important;
+  transform: rotate(180deg) !important;
+  font-family: 'DwarvenAxe', serif !important;
+  color: #f0e6d3 !important;
+  font-size: 0.9em !important;
+  letter-spacing: 2px !important;
+  margin-bottom: 10px !important;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.8) !important;
+}
+/* =========================================================================
+ *  Wiki Licorne d'Abondance — 
+ * ========================================================================= */
+
+/* Fenêtre de l'application */
+.licorne-wiki .window-content {
+  background: #f0e6d3;
+  color: #2c1810;
+  padding: 0;
+}
+
+.licorne-wiki-content {
+  font-family: 'EBGaramond', serif;
+}
+
+/* Bannière de couverture */
+.licorne-wiki-banner {
+  position: relative;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  border-bottom: 3px solid #c8a96e;
+}
+.licorne-wiki-banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(44,24,16,0.85), rgba(44,24,16,0));
+}
+.licorne-wiki-banner h1 {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 12px 18px;
+  font-family: 'MagnificentJoss', serif;
+  font-size: 28px;
+  color: #f0e6d3;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+  border: none;
+}
+
+.licorne-wiki-intro {
+  padding: 14px 18px 4px;
+  font-size: 15px;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+/* Grille de boutons */
+.licorne-wiki-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 14px 18px 20px;
+}
+.licorne-wiki-buttons button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  background: #e8d9c0;
+  color: #2c1810;
+  border: 1px solid #c8a96e;
+  border-radius: 4px;
+  font-family: 'DwarvenAxe', serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.05s ease;
+}
+.licorne-wiki-buttons button:hover {
+  background: #c8a96e;
+}
+.licorne-wiki-buttons button:active {
+  transform: translateY(1px);
+}
+.licorne-wiki-buttons button i {
+  font-size: 18px;
+  width: 22px;
+  text-align: center;
+}
+
+/* Bouton dans l'en-tête de l'onglet Journal */
+.licorne-wiki-btn {
+  width: 100%;
+  margin: 4px 0;
+  padding: 6px 8px;
+  background: #c8a96e;
+  color: #2c1810;
+  border: 1px solid #8b6914;
+  border-radius: 4px;
+  font-family: 'DwarvenAxe', serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+.licorne-wiki-btn:hover {
+  background: #d8bd86;
+}
