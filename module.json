@@ -1,21 +1,18 @@
 {
   "id": "licorne-dabondance-free",
   "title": "Licorne d'Abondance - Aides de jeu (Gratuit)",
-  "description": "Aides de jeu gratuites pour le scénario D&D 5e Licorne d'Abondance : PNJ, scènes/battlemaps, objets et tables aléatoires. Sans le scénario ni les cartes joueurs (voir la version complète payante). Installable librement, sans clé d'activation.",
-  "version": "1.0.2",
-
+  "description": "Aides de jeu gratuites pour le scénario D&D 5e Licorne d'Abondance : PNJ, battlemap et tables aléatoires. Sans le scénario ni les cartes joueurs (voir la version complète payante). Installable librement, sans clé d'activation.",
+  "version": "1.0.3",
   "authors": [
     {
       "name": "magisterphamtom"
     }
   ],
-
   "compatibility": {
     "minimum": "13",
     "verified": "14",
     "maximum": "14"
   },
-
   "relationships": {
     "systems": [
       {
@@ -28,7 +25,6 @@
       }
     ]
   },
-
   "packs": [
     {
       "name": "actors",
@@ -44,20 +40,12 @@
       "type": "Scene"
     },
     {
-      "name": "items",
-      "label": "Objets et Trésors",
-      "path": "packs/items",
-      "type": "Item",
-      "system": "dnd5e"
-    },
-    {
       "name": "tables",
       "label": "Tables aléatoires",
       "path": "packs/tables",
       "type": "RollTable"
     }
   ],
-
   "languages": [
     {
       "lang": "fr",
@@ -65,24 +53,20 @@
       "path": "lang/fr.json"
     }
   ],
-
   "styles": [
     "styles/journal.css"
   ],
-
   "esmodules": [
     "scripts/licorne.js"
   ],
-
   "media": [
     {
       "type": "cover",
       "url": "modules/licorne-dabondance-free/assets/artwork/journal-parchment.webp"
     }
   ],
-
   "url": "https://github.com/magisterphamtom/licorne-dabondance-free",
   "bugs": "https://github.com/magisterphamtom/licorne-dabondance-free/issues",
   "manifest": "https://github.com/magisterphamtom/licorne-dabondance-free/releases/latest/download/module.json",
-  "download": "https://github.com/magisterphamtom/licorne-dabondance-free/releases/download/v1.0.2/licorne-dabondance-free.zip"
+  "download": "https://github.com/magisterphamtom/licorne-dabondance-free/releases/download/v1.0.3/licorne-dabondance-free.zip"
 }

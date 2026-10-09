@@ -3,46 +3,46 @@
 ======================================== */
 @font-face {
   font-family: 'MagnificentJoss';
-  src: url('/modules/licorne-dabondance/assets/fonts/MAGNIFICENTJOSS1.OTF') format('opentype');
+  src: url('/modules/licorne-dabondance-free/assets/fonts/MAGNIFICENTJOSS1.OTF') format('opentype');
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'DwarvenAxe';
-  src: url('/modules/licorne-dabondance/assets/fonts/DWARVENAXEBB.OTF') format('opentype');
+  src: url('/modules/licorne-dabondance-free/assets/fonts/DWARVENAXEBB.OTF') format('opentype');
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'DwarvenAxe';
-  src: url('/modules/licorne-dabondance/assets/fonts/DWARVENAXEBB-ITALIC.OTF') format('opentype');
+  src: url('/modules/licorne-dabondance-free/assets/fonts/DWARVENAXEBB-ITALIC.OTF') format('opentype');
   font-style: italic;
 }
 
 @font-face {
   font-family: 'EBGaramond';
-  src: url('/modules/licorne-dabondance/assets/fonts/EBGaramond-Regular.ttf') format('truetype');
+  src: url('/modules/licorne-dabondance-free/assets/fonts/EBGaramond-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'EBGaramond';
-  src: url('/modules/licorne-dabondance/assets/fonts/EBGaramond-Italic.ttf') format('truetype');
+  src: url('/modules/licorne-dabondance-free/assets/fonts/EBGaramond-Italic.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'EBGaramond';
-  src: url('/modules/licorne-dabondance/assets/fonts/EBGaramond-Bold.ttf') format('truetype');
+  src: url('/modules/licorne-dabondance-free/assets/fonts/EBGaramond-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Heraldics';
-  src: url('/modules/licorne-dabondance/assets/fonts/INTELLECTAHERALDICS.TTF') format('truetype');
+  src: url('/modules/licorne-dabondance-free/assets/fonts/INTELLECTAHERALDICS.TTF') format('truetype');
   font-weight: normal;
 }
 
@@ -50,7 +50,7 @@
    FOND PARCHEMIN - MODE LECTURE
 ======================================== */
 .journal-entry-content {
-  background-image: url("/modules/licorne-dabondance/assets/artwork/journal-parchment.webp") !important;
+  background-image: url("/modules/licorne-dabondance-free/assets/artwork/journal-parchment.webp") !important;
   background-size: cover !important;
   background-position: top center !important;
   background-repeat: no-repeat !important;
@@ -72,7 +72,7 @@
 .tox .tox-edit-area,
 .tox .tox-edit-area__iframe,
 .ProseMirror {
-  background-image: url("/modules/licorne-dabondance/assets/artwork/journal-parchment.webp") !important;
+  background-image: url("/modules/licorne-dabondance-free/assets/artwork/journal-parchment.webp") !important;
   background-size: cover !important;
   background-position: top center !important;
   background-repeat: no-repeat !important;
@@ -322,7 +322,7 @@ figure#pause.dnd5e2.paused figcaption {
   top: 0 !important;
   width: 70px !important;
   height: 100% !important;
-  background-image: url("/modules/licorne-dabondance/assets/artwork/bandeau.png") !important;
+  background-image: url("/modules/licorne-dabondance-free/assets/artwork/bandeau.png") !important;
   background-size: cover !important;
   background-repeat: repeat-y !important;
   display: flex !important;
@@ -340,7 +340,7 @@ figure#pause.dnd5e2.paused figcaption {
   transform: translateX(-50%) !important;
   width: 90px !important;
   height: 90px !important;
-  background-image: url("/modules/licorne-dabondance/assets/artwork/cachet.png") !important;
+  background-image: url("/modules/licorne-dabondance-free/assets/artwork/cachet.png") !important;
   background-size: contain !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
