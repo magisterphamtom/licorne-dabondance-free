@@ -157,3 +157,6 @@ Thumbs.db
 
 # Archives de build (générées par la release GitHub Actions)
 *.zip
+
+# Les packs LevelDB stockent parfois leurs données dans des .log : à versionner
+!packs/**/*.log
