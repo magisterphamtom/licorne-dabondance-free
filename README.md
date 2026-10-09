@@ -10,7 +10,7 @@
 
 Ce module Foundry VTT rassemble gratuitement une partie du matériel d'aide de jeu créé pour le scénario D&D 5e **Licorne d'Abondance** (Dendrobat Éditions) : PNJ, scènes/battlemaps et tables aléatoires, prêts à l'emploi dans vos propres parties.
 
-Il ne contient **ni le scénario, ni les cartes joueurs, ni le guide du MJ** — ce contenu fait partie de la version complète, payante, du module (voir plus bas).
+Il ne contient **ni le scénario, ni le guide du MJ** — ce contenu fait partie de la version complète, payante, du module (voir plus bas).
 
 ## 📦 Contenu du module
 
@@ -50,6 +50,6 @@ Aucune clé d'activation n'est nécessaire : le module est utilisable librement,
 
 ## 📜 Licence
 
-Ce pack d'aides de jeu est distribué gratuitement avec l'accord de Dendrobat Éditions. Le scénario complet, les cartes joueurs et le guide du MJ restent réservés à la version payante du module, disponible sur [dendrobat.fr](https://dendrobat.fr).
+Ce pack d'aides de jeu est distribué gratuitement avec l'accord de Dendrobat Éditions. Le scénario complet et le guide du MJ restent réservés à la version payante du module, disponible sur [dendrobat.fr](https://dendrobat.fr).
 
 Tous droits réservés sur le contenu original du scénario Licorne d'Abondance — Dendrobat Éditions.
