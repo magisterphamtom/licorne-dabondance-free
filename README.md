@@ -14,10 +14,9 @@ Il ne contient **ni le scénario, ni le guide du MJ** — ce contenu fait partie
 
 ## 📦 Contenu du module
 
-- **PNJ et créatures** — fiches d'acteurs prêtes à jouer
-- **Scènes** — les battlemaps et cartes du village
-- **Tables aléatoires** — tables de jet pour enrichir vos parties
-- Un journal de présentation avec le contexte du contenu inclus
+- **PNJ** — 25 fiches d'acteurs D&D 5e prêtes à jouer, rangées par dossiers
+- **Scènes et battlemaps** — les 4 scènes du module (versions MJ et joueurs)
+- **Tables aléatoires** — 4 tables : rumeurs sur les licornes, rencontres en forêt, rencontres sur la route, rumeurs sur la baronnie
 
 ## 🚀 Installation
 
