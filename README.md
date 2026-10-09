@@ -1,6 +1,6 @@
 # 🦄 Licorne d'Abondance — Aides de jeu (gratuit)
 
-![Version](https://img.shields.io/badge/version-1.0.3-blue)
+![Version](https://img.shields.io/badge/version-1.0.4-blue)
 ![Foundry](https://img.shields.io/badge/Foundry-v13--v14-orange)
 ![Système](https://img.shields.io/badge/syst%C3%A8me-D%26D%205e-red)
 ![Langue](https://img.shields.io/badge/langue-Fran%C3%A7ais-blue)
@@ -8,14 +8,14 @@
 
 ## Présentation
 
-Ce module Foundry VTT rassemble gratuitement une partie du matériel d'aide de jeu créé pour le scénario D&D 5e **Licorne d'Abondance** (Dendrobat Éditions) : PNJ, battlemap et tables aléatoires, prêts à l'emploi dans vos propres parties.
+Ce module Foundry VTT rassemble gratuitement une partie du matériel d'aide de jeu créé pour le scénario D&D 5e **Licorne d'Abondance** (Dendrobat Éditions) : PNJ, scènes/battlemaps et tables aléatoires, prêts à l'emploi dans vos propres parties.
 
 Il ne contient **ni le scénario, ni les cartes joueurs, ni le guide du MJ** — ce contenu fait partie de la version complète, payante, du module (voir plus bas).
 
 ## 📦 Contenu du module
 
 - **PNJ et créatures** — fiches d'acteurs prêtes à jouer
-- **Scène** — la battlemap du village
+- **Scènes** — les battlemaps et cartes du village
 - **Tables aléatoires** — tables de jet pour enrichir vos parties
 - Un journal de présentation avec le contexte du contenu inclus
 
