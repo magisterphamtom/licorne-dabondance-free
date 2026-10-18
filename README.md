@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/banner.png" alt="licorne-dabondance-free" width="100%"></p>
+
 # 🦄 Licorne d'Abondance — Aides de jeu (gratuit)
 
 ![Version](https://img.shields.io/badge/version-1.0.4-blue)
